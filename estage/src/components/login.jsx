@@ -9,6 +9,7 @@ export class Login extends React.Component {
     super(props);
     this.handleConnexion = this.handleConnexion.bind(this);
   }
+  //Connexion administration
   handleConnexion() {
     let connecter = false;
 
@@ -17,7 +18,7 @@ export class Login extends React.Component {
     if (email.toLowerCase() === "etudiant@gmail.com" && pass === "patate") {
       connecter = true;
     }
-    if (email.toLowerCase() === "entreprise@gmail.com" && pass === "patate") {
+    if (email.toLowerCase() === "admin@gmail.com" && pass === "patate") {
       connecter = true;
     }
     this.props.onClick(connecter);
@@ -30,12 +31,6 @@ export class Login extends React.Component {
           <Row className="text-center">
             <Col>
               <h1>CONNEXION E STAGE</h1>
-              {/* <img
-                src={logo}
-                alt="BecFlix"
-                width="100px"
-                className="text-center"
-              /> */}
             </Col>
           </Row>
           <Row>

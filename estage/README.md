@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# projet_synthese E Stage
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Rafael De Mendonça 2021-04-11
 
-## Available Scripts
+## Description du Projet E Stage
 
-In the project directory, you can run:
+```
+E Stage est une application de type OnePage ayant pour objectif l'apprentissage académique des pratiques du développement web soit la documentation, les tests et la mise en production d'un projet. Le projet est structuré grâce au Framework React Js. Le projet E Stage est structuré à l'aide de plusieurs composants dont 11 views représentant les pages, 15 components et un backend simulé par un mock api json.server.
 
-### `yarn start`
+Le projet E. Stage c'est une application pour la recherche d'opportunité de stage pour les étudiants et pour les entrepreneurs qui ont besoin des ressources.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+L'application contient une page d'accueil de présentation de l'application ainsi que de ses utilisateurs, une page avec toutes les offres de stage, une page avec tous les candidats étudiants, une page d'inscription d'étudiants, une page de connexion, une page d'accueil pour le profil administrateur qui possède tous les droits pour la création, la modification et la suppression des profils étudiants ou entrepreneur.
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Adresse
 
-### `yarn test`
+```
+Incluir hospedagem
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation du projet
 
-### `yarn build`
+### GitHub création du repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+Création du dossier Examen2Vue dans mon local.
+Clone du repository git 1017examen2rafaelmendonca au dossier Examen2Vue: git clone https://github.com/raf-mendonca/1017examen2rafaelmendonca.git
+Addiction des premières modifications au repository: git add <nom>
+Commit: git commit -m "commit initial ex:1"
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Setup du projet
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+npm install
+```
 
-### `yarn eject`
+### Commandes création du projet
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+npm create-react-app
+npm i json-server
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Besoins fonctionnels
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- npm i axios
+- npm i react-router
+- npm i react-router-dom
+- npm i react-bootstrap
+- npm install --save @fortawesome/fontawesome-free
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Compilation projet
 
-## Learn More
+```
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Compilation json.server
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm start
+```
 
-### Code Splitting
+## E Stage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](/img/photoHeader.png)
