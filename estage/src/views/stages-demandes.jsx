@@ -1,7 +1,5 @@
 import React from "react";
-import { Form, Button, FormControl } from "react-bootstrap";
 import Home from "./home";
-import ListGroup from "react-bootstrap/ListGroup";
 
 const StagesDemandes = (props) => {
   return (
@@ -32,22 +30,6 @@ const StagesDemandes = (props) => {
                 ))
               : "loading"}
           </div>
-
-          {/* <div className="col-xs-12 col-md-4">
-            <div className="list-style">
-              <h2>Secteur d'activité</h2>
-              <ListGroup>
-                {props.data
-                  ? props.data.domaine.map((d, i) => (
-                      <ListGroup.Item key={`${d}-${i}`} className="bgList">
-                        {" "}
-                        {d}
-                      </ListGroup.Item>
-                    ))
-                  : "loading"}
-              </ListGroup>
-            </div>
-          </div> */}
         </div>
       </div>
       <Home />

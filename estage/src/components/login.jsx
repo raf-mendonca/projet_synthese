@@ -1,6 +1,5 @@
 import React from "react";
 import Form from "react-bootstrap/Form";
-import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron";
 import { Container, Row, Col } from "react-bootstrap";
 //importer LOGO e stage
@@ -49,6 +48,7 @@ export class Login extends React.Component {
                 <button
                   className="btn btn-custom btn-lg ml-2"
                   onClick={this.handleConnexion}
+                  title="buttonMarche"
                 >
                   Submit
                 </button>

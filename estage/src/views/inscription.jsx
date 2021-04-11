@@ -67,6 +67,7 @@ export default class Inscription extends Component {
                 value={this.state.user.nom}
                 onChange={(e) => this.updateField(e)}
                 placeholder="Digitez votre nom..."
+                title="input1"
               />
             </div>
           </div>
@@ -81,6 +82,7 @@ export default class Inscription extends Component {
                 value={this.state.user.domaine}
                 onChange={(e) => this.updateField(e)}
                 placeholder="Digitez votre domaine..."
+                title="input2"
               />
             </div>
           </div>
@@ -95,6 +97,7 @@ export default class Inscription extends Component {
                 value={this.state.user.experience}
                 onChange={(e) => this.updateField(e)}
                 placeholder="Informez si vous avez d'expérience..."
+                title="input3"
               />
             </div>
           </div>
@@ -109,6 +112,7 @@ export default class Inscription extends Component {
                 value={this.state.user.motivation}
                 onChange={(e) => this.updateField(e)}
                 placeholder="Quel est votre motivation..."
+                title="input4"
               />
             </div>
           </div>
@@ -123,6 +127,7 @@ export default class Inscription extends Component {
                 value={this.state.user.email}
                 onChange={(e) => this.updateField(e)}
                 placeholder="Digitez votre courriel..."
+                title="input5"
               />
             </div>
           </div>

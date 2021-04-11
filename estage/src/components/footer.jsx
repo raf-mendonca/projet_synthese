@@ -28,7 +28,11 @@ export const Footer = (props) => {
         <div className="container text-center">
           <p>
             &copy; 2021 Rafael Mendonça. Design by{" "}
-            <a href="https://github.com/raf-mendonca/eStage" rel="nofollow">
+            <a
+              href="https://github.com/raf-mendonca/eStage"
+              rel="nofollow"
+              title="footerLink"
+            >
               Raf-Mendonça eStage
             </a>
           </p>

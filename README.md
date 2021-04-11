@@ -5,7 +5,7 @@
 ## Description du Projet E Stage
 
 ```
-E Stage est une application de type OnePage ayant pour objectif l'apprentissage académique des pratiques du développement web soit la documentation, les tests et la mise en production d'un projet. Le projet est structuré grâce au Framework React Js. Le projet E Stage est structuré à l'aide de plusieurs composants dont 11 views représentant les pages, 15 components et un backend simulé par un mock api json.server.
+E Stage est une application de type OnePage ayant pour objectif l'apprentissage académique des pratiques du développement web soit la documentation, les tests et la mise en production d'un projet. Le projet est structuré grâce au Framework React Js. Le projet E Stage est structuré à l'aide de plusieurs composants dont 11 views représentant les pages, 13 components et un backend simulé par un mock api json.server.
 
 Le projet E. Stage c'est une application pour la recherche d'opportunité de stage pour les étudiants et pour les entrepreneurs qui ont besoin des ressources.
 

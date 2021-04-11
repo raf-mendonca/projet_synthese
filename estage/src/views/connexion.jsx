@@ -23,7 +23,7 @@ export class Connexion extends React.Component {
       return (
         <Container fluid>
           <Administration />
-          {/* <Deconnexion onClick={this.verifierConnexion} /> */}
+          <Deconnexion onClick={this.verifierConnexion} />
         </Container>
       );
     } else {
